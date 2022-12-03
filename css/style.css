@@ -57,6 +57,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
+    border-radius: 15px 15px 15px 15px;
 }
 .button-class {
     display: flex;
@@ -71,32 +72,41 @@ body{
 
 .first-button {
     background-image: url("../img/istockphoto-1161409422-612x612.jpg");
-    width:9vw;
-    height:9vw;
+    width:15vw;
+    height:15vw;
     border-radius: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
     text-align: center;
     justify-content: center;
-    
-    line-height: 9em;
-    border: 2px solid var(--secondaryA);
+    line-height: 15em;
+    border: 2px inset var(--secondaryA);
     color: var(--secondaryA);
 }
 
 .second-button {
     background-image: url("../img/istockphoto-483300738-612x612.jpg");
-    width:9vw;
-    height:9vw;
+    width:15vw;
+    height:15vw;
     border-radius: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
     text-align: center;
     justify-content: center;
-    line-height: 9em;
-    border: 2px solid var(--secondaryA);
+    line-height: 15em;
+    border: 2px inset var(--secondaryA);
     color: var(--secondaryA);
+}
+.buttons-middle.first-button a:link,a:visited{
+    color: var(--secondaryA);
+    font-weight: 500;
+    text-decoration: none;
+}
+.buttons-middle.second-button a:hover,a:active{
+    color: var(--secondary);
+    font-weight: 500;
+    text-decoration: none;
 }
 /* Homepage Hero Area Ends Here */
