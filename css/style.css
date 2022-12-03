@@ -29,7 +29,7 @@ body{
 }
 .btn-outline:hover{
     background-color: var(--primary);
-    color: var(--secondary);
+    color: var(--secondaryA);
 }
 /* Header Area starts here*/
 .navbar .container-custom{
@@ -49,4 +49,47 @@ body{
 .nav-item a:hover{
     color:var(--secondary)!important;
 }
-/* Header ends here*/
+/* Header Area Ends here*/
+/* Homepage Hero Area Starts Here */
+.Homepage .container-custom{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-img {
+    background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+}
+.button-class {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    max-height: 1024px;
+}
+
+.first-button {
+    background-image: url("../img/istockphoto-1161409422-612x612.jpg");
+    width:9vw;
+    height:9vw;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+}
+
+.second-button {
+    background-image: url("../img/istockphoto-483300738-612x612.jpg");
+    width:9vw;
+    height:9vw;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+}
+
+/* Homepage Hero Area Ends Here */
