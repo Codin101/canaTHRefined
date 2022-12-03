@@ -51,13 +51,7 @@ body{
 }
 /* Header Area Ends here*/
 /* Homepage Hero Area Starts Here */
-.Homepage .container-custom{
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-.container-img {
+.Homepage-container-img {
     background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
     height:100vh;
     background-size: cover;
@@ -68,8 +62,11 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-height: 1024px;
+    width: 100vh;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .first-button {
@@ -80,6 +77,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    
+    line-height: 9em;
+    border: 2px solid var(--secondaryA);
+    color: var(--secondaryA);
 }
 
 .second-button {
@@ -90,6 +93,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 9em;
+    border: 2px solid var(--secondaryA);
+    color: var(--secondaryA);
 }
-
 /* Homepage Hero Area Ends Here */
