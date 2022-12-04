@@ -57,7 +57,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     display:flex;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 0px 0px;
 }
 .button-class {
     display: flex;
@@ -113,10 +113,10 @@ body{
 /* Recreational Hero Area Starts Here */
 .Recreational-container-img {
     background-image: url("../img/crystalweed-cannabis-rLR4smahG2Q-unsplash.jpg");
-    height:100vh;
-    background-size: cover;
+    height:50vh;
+    background-size: 50%,auto;
     background-repeat: no-repeat;
-    display:flex;
+    display: flex;
     border-radius: 15px 15px 15px 15px;
 }
 /* Recreational Hero Area Starts Here */
